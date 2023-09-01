@@ -1,5 +1,5 @@
 # Install Tomcat & openjdk 8 (has java and javac)
-FROM tomcat:jdk8-openjdk
+FROM tomcat:8-jdk8-openjdk
 
 # Copy source files to tomcat folder structure
 COPY . /usr/local/tomcat/webapps/
